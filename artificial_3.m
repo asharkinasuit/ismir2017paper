@@ -2,6 +2,8 @@ function [data] = artificial_3(b,n,m,w,f)
 % produce artificial data, class 3: like 2, but with a slow section in the
 % middle ~1/3 of the sample, width varying by w samples (default = m/10),
 % slowing down by a factor of f (default 2)
+% b = base series to create variations of;
+% n = number of time series, m = length of each
 if nargin < 5
     f = 1.2;
 end

@@ -1,5 +1,8 @@
 function [data] = artificial_5(b,n,m,f,w)
 % produce artificial data, class 5: gradually modify tempo instead of jumping 
+% b = base series to create variations of;
+% n = number of time series, m = length of each; f is the factor by which to
+% slow (default: f = 1.2); w = window width of tempo ramps (default: m/18)
 
 if nargin < 5
     w = floor(m/18);

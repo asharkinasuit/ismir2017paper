@@ -1,6 +1,8 @@
-function [data] = artificial_8(b,n,m)
+function [data] = artificial_7(b,n,m)
 % produce artificial data, class 7: gradually increase or decrease the tempo
 % (based on fair coin toss)
+% b = base series to create variations of;
+% n = number of time series, m = length of each
 
 data = cell(1,n);
 for i = 1:n

@@ -1,6 +1,8 @@
 function [data] = artificial_6(b,n,m)
 % produce artificial data, class 6: gradually modify tempo instead of jumping:
 % increase by random amount rather than from random point
+% b = base series to create variations of;
+% n = number of time series, m = length of each
 
 data = cell(1,n);
 for i = 1:n

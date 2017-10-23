@@ -3,6 +3,8 @@ function [data] = artificial_4(b,n,m,w,f,q)
 % middle ~1/3 of the sample, width varying by w samples (default = m/10),
 % slowing down by a factor of f (default 2), with a fraction of 1/q speeding
 % up again during the middle third of the slow part (default: q = 2)
+% b = base series to create variations of;
+% n = number of time series, m = length of each
 if nargin < 6
     q = 2;
 end

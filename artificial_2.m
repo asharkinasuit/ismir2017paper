@@ -2,6 +2,7 @@ function [data] = artificial_2(b,n,m,f)
 % produce artificial data, class 2: base of N(0,1)^12 chroma vectors (b)
 % resampled each with f more and less samples to m-nf/2...m+nf/2 samples to
 % simulate uniform tempo variations; default f = 1
+% n = number of time series, m = length of each
 if nargin < 4
     f = 1;
 end
