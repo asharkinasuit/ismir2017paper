@@ -1,6 +1,6 @@
 This repository contains the code used for the paper entitled "A formalization
 of relative local tempo variations in collections of performances" by Jeroen
-Peperkamp, Klaus Hildebrandt and Cynthia Liem, as well as some examples of how
+Peperkamp, Klaus Hildebrandt and Cynthia C S Liem, as well as some examples of how
 to use it, and some sample audio files in both MIDI and MP3 format.
 
 In the work we made use of the MIRtoolbox version 1.6.1, as well as the Curve
