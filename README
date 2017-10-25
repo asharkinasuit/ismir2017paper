@@ -1,0 +1,18 @@
+This repository contains the code used for the paper entitled "A formalization
+of relative local tempo variations in collections of performances" by Jeroen
+Peperkamp, Klaus Hildebrandt and Cynthia Liem, as well as some examples of how
+to use it, and some sample audio files in both MIDI and MP3 format.
+
+In the work we made use of the MIRtoolbox version 1.6.1, as well as the Curve
+Fitting Toolbox for MATLAB. The MATLAB version which was used in the experiments
+was R2016b. We also rely on Dan Ellis' implementation of DTW, which is included
+with these files, as well as the MIDICSV library (version 1.1), which is not.
+Please compile dpcore.c before running the code.
+
+See MIDI_and_real_performances.m for example code that applies a path to a MIDI,
+and experiments_artificial.m for the code which was used to run the experiments
+on artificial data. Further documentation is provided in the source code of the
+various .m files.
+
+These files are released under the GPL, see the COPYRIGHT file. Any further
+inquiries can be sent to jbpeperkamp@gmail.com.
